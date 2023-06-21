@@ -1,17 +1,19 @@
 $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
-        loop:true,
-        nav:true,
-        autoplay:true,
-        autoplayTimeout:2000,
-        navText: [ '', ' ' ],
+        loop: true,
+        nav: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        navText: ['', ' '],
 
-        responsive:{
-            0:{
-                items:2
+        responsive: {
+            0: {
+                items: 2
             },
-            1100:{
-                items:5
+            1100: {
+                items: 3
             }
         }
+
     });
+});
