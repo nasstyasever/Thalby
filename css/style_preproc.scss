@@ -1,8 +1,11 @@
-@import "reset_1";
-@import "normalize_1";
+@import "reset_1.css";
+@import "normalize_1.css";
 @import "owl.carousel.css";
 @import "owl.theme.default.css";
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;700&display=swap');
+
+
 
 $white_color: #FFFFFF;
 $black_color: #000000;
@@ -29,7 +32,7 @@ $black_color: #000000;
   width: 100%;
 }
 
-.header {
+header {
   padding: 16px;
   background-color: $white_color;
   .container {
@@ -37,11 +40,13 @@ $black_color: #000000;
     margin: auto;
     background-color: $white_color;
   }
-  .logo img {
-    position: absolute;
-    top: 15px;
-    left: 50%;
-    transform: translate(-50%);
+  .logo {
+    img {
+      position: absolute;
+      top: 15px;
+     left: 50%;
+     transform: translate(-50%);
+    }
   }
   nav {
     display: flex;
@@ -55,7 +60,7 @@ $black_color: #000000;
       a {
         color: #1C1B1B;
         font-size: 16px;
-        font-family: 'robotoregular';
+        font-family: 'roboto';
         font-style: normal;
         font-weight: 700;
         line-height: 26.4px;
@@ -95,21 +100,24 @@ $black_color: #000000;
   justify-content: space-between;
   align-items: center;
   h1 {
-    font-family: 'robotobold';
+    font-family: 'roboto';
+    font-weight: 700;
     font-size: 60px;
     line-height: 70px;
     color: $black_color;
     margin-bottom: 42px;
   }
   p {
-    font-family: 'robotoregular';
+    font-family: 'roboto';
+    font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     color: $black_color;
     margin-bottom: 26px;
   }
   a {
-    font-family: 'robotoregular';
+    font-family: 'roboto';
+    font-weight: 400;
     font-size: 17px;
     line-height: 20px;
     color: $white_color;
@@ -132,7 +140,8 @@ $black_color: #000000;
   align-items: center;
   margin-bottom: 87px;
   h2 {
-    font-family: 'robotobold';
+    font-family: 'roboto';
+    font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
@@ -140,7 +149,8 @@ $black_color: #000000;
     margin-bottom: 27px;
   }
   p {
-    font-family: 'robotoregular';
+    font-family: 'roboto';
+    font-weight: 400;
     font-size: 20px;
     line-height: 23px;
     text-align: center;
@@ -155,7 +165,8 @@ $black_color: #000000;
 
 .sellers_info {
   h2 {
-    font-family: 'robotobold';
+    font-family: 'roboto';
+    font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
@@ -177,13 +188,15 @@ $black_color: #000000;
       margin-bottom: 27px;
     }
     p {
-      font-family: 'robotoregular';
+      font-family: 'roboto';
+      font-weight: 400;
       font-size: 17px;
       line-height: 20px;
       text-align: center;
       color: $black_color;
       &:first-of-type {
-        font-family: 'robotobold';
+        font-family: 'roboto';
+        font-weight: 700;
         font-size: 17px;
         line-height: 20px;
         text-align: center;
@@ -192,7 +205,8 @@ $black_color: #000000;
       }
     }
     button {
-      font-family: 'robotobold';
+      font-family: 'roboto';
+      font-weight: 700;
       font-size: 17px;
       line-height: 20px;
       text-align: center;
@@ -232,12 +246,14 @@ $black_color: #000000;
   }
 
   h2 {
-    font-family: 'robotoregular';
+    font-family: 'roboto';
+    font-weight: 400;
     font-size: 36px;
     line-height: 42px;
     color: $black_color;
     &:first-of-type {
-      font-family: 'robotobold';
+      font-family: 'roboto';
+      font-weight: 700;
       font-size: 36px;
       line-height: 42px;
       color: $black_color;
@@ -247,7 +263,8 @@ $black_color: #000000;
     }
   }
   button {
-    font-family: 'robotobold';
+    font-family: 'roboto';
+    font-weight: 700;
     font-size: 17px;
     line-height: 20px;
     text-align: center;
