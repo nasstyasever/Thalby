@@ -6,9 +6,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;700&display=swap');
 
 
-
+$main_font: 'roboto';
 $white_color: #FFFFFF;
 $black_color: #000000;
+
 
 @mixin max-screen($res) {
   @media screen and (max-width: $res) {
@@ -60,7 +61,7 @@ header {
       a {
         color: #1C1B1B;
         font-size: 16px;
-        font-family: 'roboto';
+        font-family: $main_font;
         font-style: normal;
         font-weight: 700;
         line-height: 26.4px;
@@ -100,7 +101,7 @@ header {
   justify-content: space-between;
   align-items: center;
   h1 {
-    font-family: 'roboto';
+    font-family: $main_font;
     font-weight: 700;
     font-size: 60px;
     line-height: 70px;
@@ -108,7 +109,7 @@ header {
     margin-bottom: 42px;
   }
   p {
-    font-family: 'roboto';
+    font-family: $main_font;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
@@ -116,7 +117,7 @@ header {
     margin-bottom: 26px;
   }
   a {
-    font-family: 'roboto';
+    font-family: $main_font;
     font-weight: 400;
     font-size: 17px;
     line-height: 20px;
@@ -140,7 +141,7 @@ header {
   align-items: center;
   margin-bottom: 87px;
   h2 {
-    font-family: 'roboto';
+    font-family: $main_font;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -149,7 +150,7 @@ header {
     margin-bottom: 27px;
   }
   p {
-    font-family: 'roboto';
+    font-family: $main_font;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
@@ -165,7 +166,7 @@ header {
 
 .sellers_info {
   h2 {
-    font-family: 'roboto';
+    font-family: $main_font;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -188,14 +189,14 @@ header {
       margin-bottom: 27px;
     }
     p {
-      font-family: 'roboto';
+      font-family: $main_font;
       font-weight: 400;
       font-size: 17px;
       line-height: 20px;
       text-align: center;
       color: $black_color;
       &:first-of-type {
-        font-family: 'roboto';
+        font-family: $main_font;
         font-weight: 700;
         font-size: 17px;
         line-height: 20px;
@@ -205,7 +206,7 @@ header {
       }
     }
     button {
-      font-family: 'roboto';
+      font-family: $main_font;
       font-weight: 700;
       font-size: 17px;
       line-height: 20px;
@@ -246,13 +247,13 @@ header {
   }
 
   h2 {
-    font-family: 'roboto';
+    font-family: $main_font;
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
     color: $black_color;
     &:first-of-type {
-      font-family: 'roboto';
+      font-family: $main_font;
       font-weight: 700;
       font-size: 36px;
       line-height: 42px;
@@ -263,7 +264,7 @@ header {
     }
   }
   button {
-    font-family: 'roboto';
+    font-family: $main_font;
     font-weight: 700;
     font-size: 17px;
     line-height: 20px;
