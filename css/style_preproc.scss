@@ -226,7 +226,11 @@ $black_color: #000000;
   a {
     margin-right: 50px;
     margin-left: 50px;
+    img {
+      border-radius: 5%;
+    }
   }
+
   h2 {
     font-family: 'robotoregular';
     font-size: 36px;

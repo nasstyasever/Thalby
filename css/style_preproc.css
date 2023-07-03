@@ -496,6 +496,8 @@ template {
   .direct_descr a {
     margin-right: 50px;
     margin-left: 50px; }
+    .direct_descr a img {
+      border-radius: 5%; }
   .direct_descr h2 {
     font-family: 'robotoregular';
     font-size: 36px;

@@ -280,3 +280,7 @@ header nav ul a:hover {
     text-decoration: underline;
     background: transparent;
 }
+
+.direct_descr img {
+    border-radius: 5%;
+}
