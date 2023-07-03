@@ -47,7 +47,7 @@ header {
         margin-right: 28px; }
         header nav ul a:hover {
           text-decoration: underline; }
-  @media screen and (max-width: 1180px) {
+  @media screen and (max-width: 1260px) {
     header nav ul {
       display: block; } }
 
