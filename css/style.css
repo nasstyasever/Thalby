@@ -35,9 +35,74 @@
     width: 100%;
 }
 
+.header {
+    padding: 16px;
+    background-color: #FFFFFF;
+}
+
+header .container {
+    max-width: 1440px;
+    margin: auto;
+    background-color: #FFFFFF;
+
+}
+
+header .logo img {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 188px;
+    padding-left: 182px;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul a {
+    color: #1C1B1B;
+    font-size: 16px;
+    font-family: 'robotoregular';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+    text-decoration: none;
+    margin-right: 28px;
+}
+
+header nav ul a:hover {
+    text-decoration: underline;
+}
+
+.menu_item {
+    display: flex;
+    align-items: center;
+}
+
+.menu_item img {
+    margin-left: 7px;
+}
+
+.menu_item img:hover {
+    background-color: #D6D6D6;
+}
+
+.menu_item img:first-of-type {
+    margin-left: 15px;
+}
+
 .first_banner {
     padding-top: 90px;
     padding-bottom: 90px;
+    padding-left: 164px;
     background-color: #F0EFEB;
     display: flex;
     justify-content: space-between;
@@ -74,8 +139,6 @@
 .guides_sellers {
     background-color: #FFFFFF;
     padding-top: 60px;
-    padding-left: 108px;
-    padding-right: 108px;
 }
 
 .guides_info {
@@ -165,3 +228,55 @@
     background: transparent;
 }
 
+.direct {
+    background-color: #CCCCCC;
+}
+
+.direct_descr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 76px;
+    padding-bottom: 51px;
+    padding-left: 188px;
+    padding-right: 108px;
+}
+
+.direct_descr:first-of-type {
+    background-color: #F0EFEB;
+}
+
+.direct_descr:last-of-type {
+    background-color: #F0EFEB;
+}
+
+.direct_descr a {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.direct_descr h2:first-of-type {
+    font-family: 'robotobold';
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.direct_descr h2 {
+    font-family: 'robotoregular';
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.direct_descr button {
+    font-family: 'robotobold';
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-top: 11px;
+    border: none;
+    text-decoration: underline;
+    background: transparent;
+}
