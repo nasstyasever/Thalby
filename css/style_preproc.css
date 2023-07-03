@@ -225,3 +225,65 @@ header {
     border: none;
     text-decoration: underline;
     background: transparent; }
+
+.sellers_info h2 {
+  font-family: 'roboto';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 52px; }
+
+.discover {
+  justify-content: center;
+  list-style: none;
+  background-color: #FFFFFF;
+  padding-top: 164px; }
+  .discover h2 {
+    font-family: 'roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 52px; }
+  .discover .person {
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 248px; }
+    .discover .person img {
+      margin-bottom: 27px; }
+    .discover .person p {
+      font-family: 'roboto';
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 20px;
+      line-height: normal;
+      text-align: center;
+      color: #000000; }
+      .discover .person p:first-of-type {
+        font-family: 'roboto';
+        font-weight: 700;
+        font-size: 22px;
+        line-height: normal;
+        letter-spacing: 0.6px;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 17px; }
+    .discover .person button {
+      font-family: 'roboto';
+      font-weight: 700;
+      font-size: 17px;
+      line-height: 20px;
+      text-align: center;
+      color: #000000;
+      margin-top: 11px;
+      border: none;
+      text-decoration: underline;
+      background: transparent; }
