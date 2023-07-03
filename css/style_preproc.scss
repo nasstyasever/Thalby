@@ -107,6 +107,10 @@ header {
     line-height: 70px;
     color: $black_color;
     margin-bottom: 42px;
+    @include max-screen (1035px) {
+      font-size: 40px;
+      line-height: 50px;
+    }
   }
   p {
     font-family: $main_font;
@@ -115,6 +119,9 @@ header {
     line-height: 28px;
     color: $black_color;
     margin-bottom: 26px;
+    @include max-screen (1035px) {
+      font-size: 20px;
+    }
   }
   a {
     font-family: $main_font;

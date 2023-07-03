@@ -76,6 +76,10 @@ header {
     line-height: 70px;
     color: #000000;
     margin-bottom: 42px; }
+  @media screen and (max-width: 1035px) {
+    .first_banner h1 {
+      font-size: 40px;
+      line-height: 50px; } }
   .first_banner p {
     font-family: 'roboto';
     font-weight: 400;
@@ -83,6 +87,9 @@ header {
     line-height: 28px;
     color: #000000;
     margin-bottom: 26px; }
+  @media screen and (max-width: 1035px) {
+    .first_banner p {
+      font-size: 20px; } }
   .first_banner a {
     font-family: 'roboto';
     font-weight: 400;
