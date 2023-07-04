@@ -28,7 +28,7 @@ $black_color: #000000;
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1064px;
   margin: auto;
   width: 100%;
 }
@@ -37,7 +37,7 @@ header {
   padding: 16px;
   background-color: $white_color;
   .container {
-    max-width: 1440px;
+    max-width: 1064px;
     margin: auto;
     background-color: $white_color;
   }
@@ -45,16 +45,14 @@ header {
     img {
       position: absolute;
       top: 15px;
-     left: 50%;
-     transform: translate(-50%);
+      left: 50%;
+      transform: translate(-50%);
     }
   }
   nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 188px;
-    padding-left: 182px;
     ul {
       display: flex;
       align-items: center;
@@ -71,7 +69,7 @@ header {
           text-decoration: underline;
         }
       }
-      @include max-screen (1260px) {
+      @include max-screen (1060px) {
         display: block;
       }
     }
@@ -87,52 +85,52 @@ header {
       margin-left: 15px;
     }
     &:hover {
-     background-color: #D6D6D6;
+      background-color: #D6D6D6;
     }
   }
 }
 
 .first_banner {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  padding-left: 164px;
   background-color: #F0EFEB;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  h1 {
-    font-family: $main_font;
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 70px;
-    color: $black_color;
-    margin-bottom: 42px;
-    @include max-screen (1035px) {
-      font-size: 40px;
-      line-height: 50px;
+  .first_banner_item {
+    padding-top: 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h1 {
+      font-family: $main_font;
+      font-weight: 700;
+      font-size: 60px;
+      line-height: 70px;
+      color: $black_color;
+      margin-bottom: 42px;
+      @include max-screen (1035px) {
+        font-size: 40px;
+        line-height: 50px;
+      }
     }
-  }
-  p {
-    font-family: $main_font;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-    color: $black_color;
-    margin-bottom: 26px;
-    @include max-screen (1035px) {
-      font-size: 20px;
+    p {
+      font-family: $main_font;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      color: $black_color;
+      margin-bottom: 26px;
+      @include max-screen (1035px) {
+        font-size: 20px;
+      }
     }
-  }
-  a {
-    font-family: $main_font;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 20px;
-    color: $white_color;
-    text-decoration: none;
-    background: $black_color;
-    border-radius: 14px;
-    padding: 11px 28px;
+    a {
+      font-family: $main_font;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 20px;
+      color: $white_color;
+      text-decoration: none;
+      background: $black_color;
+      border-radius: 14px;
+      padding: 11px 28px;
+    }
   }
 }
 
@@ -227,8 +225,16 @@ header {
   }
 }
 
-.direct {
+.direct_1 {
+  background-color: #F0EFEB;
+}
+
+.direct_2 {
   background-color: #CCCCCC;
+}
+
+.direct_3 {
+  background-color: #F0EFEB;
 }
 
 .direct_descr {
@@ -237,14 +243,6 @@ header {
   align-items: center;
   padding-top: 76px;
   padding-bottom: 51px;
-  padding-left: 188px;
-  padding-right: 108px;
-  &:first-of-type {
-    background-color: #F0EFEB;
-  }
-  &:last-of-type {
-    background-color: #F0EFEB;
-  }
   a {
     margin-right: 50px;
     margin-left: 50px;
@@ -283,6 +281,10 @@ header {
   }
 }
 
+.direct_2_txt {
+  text-align: right;
+}
+
 .sellers_info {
   h2 {
     font-family: $main_font;
@@ -297,11 +299,91 @@ header {
   }
 }
 
+.future {
+  background-color: $white_color;
+  padding-top: 190px;
+  .fut_descr {
+    h2 {
+      font-family: $main_font;
+      font-weight: 400;
+      font-size: 36px;
+      line-height: normal;
+      text-align: center;
+      color: $black_color;
+      &:last-of-type {
+        margin-bottom: 69px;
+      }
+    }
+  }
+  .fut_pict {
+    display: flex;
+    text-align: center;
+    .sph {
+      text-align: center;
+      margin-right: 100px;
+      margin-left: 100px;
+      margin-bottom: 110px;
+    }
+    p {
+      font-family: $main_font;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: normal;
+      text-align: center;
+      color: $black_color;
+    }
+    .blue1 {
+      background-color: #21F7EC;
+    }
+    .blue2 {
+      background-color: #33D3BC;
+    }
+    .blue3 {
+      background-color: #18A5C6;
+    }
+    .beige {
+      background-color: #D38F62;
+    }
+    .red {
+      background-color: #F94C43;
+    }
+    .lilac {
+      background-color: #D399FF;
+    }
+    .sphere {
+      height: 70px;
+      width: 70px;
+      border-radius: 50%;
+      text-align: center;
+      vertical-align: middle;
+      font-size: 500%;
+      position: relative;
+
+      display: inline-block;
+      margin: 5%;
+    }
+    .sphere::after {
+      background-color: rgba(255, 255, 255, 0.3);
+
+      height: 45%;
+      width: 12%;
+      position: absolute;
+      top: 4%;
+      left: 15%;
+      border-radius: 50%;
+    }
+  }
+}
+
+.disc {
+  background: linear-gradient(white 50%, #F0F0F0 50%);
+
+}
+
 .discover {
   justify-content: center;
   list-style: none;
-  background-color: $white_color;
-  padding-top: 164px;
+  padding-top: 52px;
   h2 {
     font-family: $main_font;
     font-weight: 700;
@@ -352,6 +434,160 @@ header {
       text-decoration: underline;
       background: transparent;
     }
+  }
+}
+
+.keep {
+  background-color: $white_color;
+  padding-top: 79px;
+  display: block;
+  justify-content: center;
+  .keep_in_touch {
+    justify-content: center;
+    list-style: none;
+    h2 {
+      font-family: $main_font;
+      font-weight: 700;
+      font-size: 36px;
+      text-align: center;
+      color: $black_color;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 9px;
+    }
+    p {
+      font-family: $main_font;
+      font-weight: 700;
+      font-size: 17px;
+      line-height: normal;
+      text-align: center;
+      color: $black_color;
+      margin-bottom: 26px;
+    }
+  }
+  .form {
+    width: 366px;
+    justify-content: center;
+    .names {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 30px;
+      .name {
+        width: 153px;
+        height: 39px;
+        padding-left: 8px;
+      }
+    }
+    .connect {
+      padding-bottom: 30px;
+      .email {
+        width: 358px;
+        height: 39px;
+        padding-left: 8px;
+      }
+    }
+  }
+}
+
+
+.date {
+  background-color: $white_color;
+  padding-bottom: 88px;
+  display: flex;
+  .form_date {
+    width: 366px;
+    justify-content: center;
+    .names {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 30px;
+      .name {
+        width: 153px;
+        height: 39px;
+        padding-left: 8px;
+      }
+    }
+    .connect {
+      padding-bottom: 30px;
+      .email {
+        width: 354px;
+        height: 39px;
+        padding-left: 8px;
+      }
+    }
+  }
+}
+
+.subscribe {
+  font-family: $main_font;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: $white_color;
+  background-color: $black_color;
+  border-radius: 14px;
+  text-decoration: none;
+  padding: 8px 23px;
+  display: inline-flex;
+  align-items: center;
+}
+
+footer {
+  background-color: $black_color;
+  padding-top: 51px;
+  padding-bottom: 16px;
+  .foot{
+    display: flex;
+    justify-content: space-between;
+    .networks {
+      justify-content: left;
+      ul {
+        margin-top: 37px;
+        list-style: none;
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 26px;
+        li {
+          a {
+            margin-right: 20px;
+          }
+        }
+      }
+    }
+    .info_contact {
+      display: flex;
+      ul {
+        li {
+          margin-right: 10px;
+          margin-left: 10px;
+          &:first-of-type {
+            margin-bottom: 36px;
+          }
+        }
+        a {
+          color: $white_color;
+          font-size: 14px;
+          font-family: $main_font;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 23.1px;
+          text-decoration: none;
+        }
+        &:last-of-type {
+          padding-left: 72px;
+        }
+      }
+    }
+  }
+  .rights {
+    font-family: $main_font;
+    font-weight: 400;
+    line-height: 23.1px;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: $white_color;
   }
 }
 
